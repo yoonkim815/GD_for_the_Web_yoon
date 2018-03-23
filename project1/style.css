@@ -3,27 +3,28 @@ body {
   background: linear-gradient(-45deg, #FF9D5A, #FFCDC9);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
   color: #FFF;
   font-family: "Helvetica";
-  font-size: 2em;
-  padding-top: 100px;
+  font-size: 100px;
+  padding-top: 200px;
   width: 100%;
   text-align: center;
 }
 
 h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   font-family: "helvetica";
   font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
+  font-size: 48px;
+  line-height: 60px;
+  padding-top: 7%;
+  padding-bottom: 20%;
+  text-align: center;
+  width: 100%;
 }
 
 p {
@@ -34,41 +35,52 @@ p {
   line-height: 1.3em;
   text-align: center;
   width: 100%;
+  padding-bottom: 15%;
 }
 
 h3 {
   color: AliceBlue;
   font-family: "Helvetica";
-  font-size: 80;
+  font-size: 80px;
   line-height: 1.3em;
   text-align: center;
-  width: 70%;
+  width: 100%;
+}
+
+
+.nav {
+  background-color: #595959;
+  color: #ffffff;
+  font-family: helvetica;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  position: fixed;
+  margin-bottom: 100%;
+}
+
+.nav > li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav > li > a:hover {
+  color: #c1c1c1;
 }
 
 .byline {
   font-family: helvetica;
   color:black;
   opacity: 0.3;
-  float: left;
+  display: inline;
+  margin-left: 10px;
   font-size: 15px;
-  padding-left: 10px;
   text-transform: lowercase;
-}
-
-.caption {
-  display: block;
-  color:black;
-  opacity: 0.75;
-  font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 14px;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-  top: 80%;
-  width: 60%;
-  background-color: white;
 }
 
 .content {
@@ -78,13 +90,60 @@ h3 {
 .image {
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 700px;
+  margin-left: 400px;
+  margin-top: 100px;
+  position: center;
 }
 
 .image2 {
   background-size: cover;
   background-position: center;
-  height: 700px;
+  width: 1200px;
+  padding-bottom: 20%;
+}
+
+
+.image3 {
+  background-size: cover;
+  background-position: center;
+  width: 1000px;
+  margin-left: 400px;
+  margin-bottom: 200px;
+  position: center;
+}
+
+.image4 {
+  background-size: cover;
+  background-position: center;
+  width: 1200px;
+  position: center;
+  float: right;
+  padding-bottom: 20%;
+}
+
+.image5 {
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  margin-left: 200px;
+}
+
+.cashregister {
+  background-size: cover;
+  background-position: center;
+  width: 1400px;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.phone {
+  background-size: cover;
+  background-position: center;
+  width: 1200px;
+  position: center;
+  float: left;
+  padding-top: -50%;
 }
 
 .writer-img {
@@ -93,4 +152,58 @@ h3 {
   box-shadow: 2px 0px 2px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 100px;
+}
+
+.content-wrapper{
+  width: 100%;
+  display: table;
+  padding-bottom: 20%;
+}
+
+.content-wrapper img{
+  width: 100%;
+}
+
+.text-wrapper img{
+  width: 80%;
+  position: relative;
+/*  margin-top: 40%;
+*/}
+
+.text-wrapper{
+  display: table-cell;
+  vertical-align: center;
+  margin: 0 auto;
+
+  width: 100%;
+  height: 75vh;
+    background-size: cover;
+  background-image: url(img/guilt.png);
+  background-position: center;
+}
+
+.text-wrapper h3{
+  text-align: center;
+  color: AliceBlue;
+  padding-top: 10%;
+}
+
+#test-area {
+  height: 200px;
+  border: 3px dashed #CCCCCC;
+  background: #FFFFFF;
+  padding: 20px;
+  cursor: url(.blank.cur), none;
+}
+
+#mycursor {
+  cursor: none;
+  width: 97px;
+  height: 137px;
+  background: url(img/chopsticks.png) no-repeat left top;
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 10000;
 }
