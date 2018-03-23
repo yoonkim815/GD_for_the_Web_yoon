@@ -188,22 +188,7 @@ h3 {
   padding-top: 10%;
 }
 
-#test-area {
-  height: 200px;
-  border: 3px dashed #CCCCCC;
-  background: #FFFFFF;
-  padding: 20px;
-  cursor: url(.blank.cur), none;
-}
+body, html {
+  cursor: url(http://www.picgifs.com/food-and-drinks/food-and-drinks/eggs/food-and-drinks-eggs-252212.gif), pointer;
 
-#mycursor {
-  cursor: none;
-  width: 97px;
-  height: 137px;
-  background: url(img/chopsticks.png) no-repeat left top;
-  position: absolute;
-  display: none;
-  top: 0;
-  left: 0;
-  z-index: 10000;
 }
