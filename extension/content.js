@@ -25,10 +25,3 @@ $('body').children().each(function () {
 
 $('#viewport').addClass('gradient');
 }
-
-
-
-
-
-
-
