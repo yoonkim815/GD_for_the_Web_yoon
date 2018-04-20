@@ -3,15 +3,17 @@
 }
 
 .gradient {
-  background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
-  color: white;
+  background: url("http://wei-haowang.com/yoon/background.png");
+  /*background: url('chrome-extension://higengemoidnhinoicljomfjmafnndcg/img/background.png');*/
 }
 
-body {
-  background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important;
-}
- 
-
-.rotate {
-	transform: rotate(180deg);
+/*body {
+  background: url('img/background.png') !important;
+}*/
+.ttt{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
 }
